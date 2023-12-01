@@ -159,8 +159,12 @@ class DecimalViewController: UIViewController {
         }
 
         // Small optimization to only delay single tap if absolutely necessary
-        if ((stateController?.convValues.copyActionIndex == 1 || stateController?.convValues.pasteActionIndex == 1) && currentlyRecognizingDoubleTap == false) ||
-            ((stateController?.convValues.copyActionIndex != 1 && stateController?.convValues.pasteActionIndex != 1) && currentlyRecognizingDoubleTap == true) {
+        if ((stateController?.convValues.copyActionIndex == 1 ||
+             stateController?.convValues.pasteActionIndex == 1) &&
+            currentlyRecognizingDoubleTap == false) ||
+            ((stateController?.convValues.copyActionIndex != 1 &&
+              stateController?.convValues.pasteActionIndex != 1) &&
+             currentlyRecognizingDoubleTap == true) {
             outputLabel.gestureRecognizers?.forEach(outputLabel.removeGestureRecognizer)
             self.setupOutputLabelGestureRecognizers()
         }
@@ -232,7 +236,7 @@ class DecimalViewController: UIViewController {
             } else if stateController?.convValues.copyActionIndex == 0 {
                 self.copySelected()
             } else {
-                self.pasteSelected()
+//                self.pasteSelected()
             }
         }
     }
@@ -246,7 +250,7 @@ class DecimalViewController: UIViewController {
             } else if stateController?.convValues.copyActionIndex == 1 {
                 self.copySelected()
             } else {
-                self.pasteSelected()
+//                self.pasteSelected()
             }
         }
     }
@@ -270,14 +274,7 @@ class DecimalViewController: UIViewController {
         }
     }
 
-    func pasteSelected() {
-        let alert = UIAlertController(title: "Paste from Clipboard", message: "Press confirm to paste the contents of your clipboard into HexaCalc.", preferredStyle: .alert)
-
-        alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: {_ in self.pasteFromClipboardToDecimalCalculator()}))
-        alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
-
-        self.present(alert, animated: true)
-    }
+  
 
     func copyAndPasteSelected() {
         let alert = UIAlertController(title: "Select Clipboard Action", message: "Press the action that you would like to perform.", preferredStyle: .alert)
@@ -375,7 +372,7 @@ class DecimalViewController: UIViewController {
         guard (sender.view as? UILabel) != nil else { return }
 
         if sender.direction == .left || sender.direction == .right {
-            deletePressed(DELBtn)
+            modulusPressed(DELBtn)
         }
     }
 
@@ -458,8 +455,9 @@ class DecimalViewController: UIViewController {
 
     }
 
-    @IBAction func deletePressed(_ sender: RoundButton) {
 
+    func deletexxx() {
+        
         // Do not delete anything if the calculator is displaying a number in scientific notation
         if runningNumber.contains("e") {
             return
@@ -509,6 +507,11 @@ class DecimalViewController: UIViewController {
         }
     }
 
+    @IBAction func modulusPressed(_ sender: RoundButton) {
+        operation(operation: .modulus)
+    }
+    
+    
     @IBAction func equalsPressed(_ sender: RoundButton) {
         operation(operation: currentOperation)
     }
@@ -752,35 +755,18 @@ class DecimalViewController: UIViewController {
 
     // Used to change the display text of buttons for second function mode
     private func changeOperators(buttons: [RoundButton?], secondFunctionActive: Bool) {
-        if secondFunctionActive {
-            for (index, button) in buttons.enumerated() {
-                switch index {
-                case 0:
-                    button?.setTitle("±", for: .normal)
-                case 1:
-                    button?.setTitle("MOD", for: .normal)
-                case 2:
-                    button?.setTitle("xʸ", for: .normal)
-                case 3:
-                    button?.setTitle("√", for: .normal)
-                default:
-                    fatalError("Index out of range")
-                }
-            }
-        } else {
-            for (index, button) in buttons.enumerated() {
-                switch index {
-                case 0:
-                    button?.setTitle("÷", for: .normal)
-                case 1:
-                    button?.setTitle("×", for: .normal)
-                case 2:
-                    button?.setTitle("-", for: .normal)
-                case 3:
-                    button?.setTitle("+", for: .normal)
-                default:
-                    fatalError("Index out of range")
-                }
+        for (index, button) in buttons.enumerated() {
+            switch index {
+            case 0:
+                button?.setTitle("÷", for: .normal)
+            case 1:
+                button?.setTitle("×", for: .normal)
+            case 2:
+                button?.setTitle("-", for: .normal)
+            case 3:
+                button?.setTitle("+", for: .normal)
+            default:
+                fatalError("Index out of range")
             }
         }
     }
