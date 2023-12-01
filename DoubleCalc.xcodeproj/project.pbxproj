@@ -13,6 +13,15 @@
 		C48644BF2B19599200C7FAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48644BD2B19599200C7FAA6 /* Main.storyboard */; };
 		C48644C12B19599400C7FAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48644C02B19599400C7FAA6 /* Assets.xcassets */; };
 		C48644C42B19599400C7FAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48644C22B19599400C7FAA6 /* LaunchScreen.storyboard */; };
+		C48644CC2B1959D700C7FAA6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644CB2B1959D700C7FAA6 /* RoundButton.swift */; };
+		C48644CE2B1959F400C7FAA6 /* DecimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644CD2B1959F400C7FAA6 /* DecimalViewController.swift */; };
+		C48644D02B195A3D00C7FAA6 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644CF2B195A3D00C7FAA6 /* UIHelper.swift */; };
+		C48644D22B195A6800C7FAA6 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644D12B195A6800C7FAA6 /* Operation.swift */; };
+		C48644D42B195A9300C7FAA6 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644D32B195A9300C7FAA6 /* StateController.swift */; };
+		C48644D62B195AB500C7FAA6 /* CalculationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644D52B195AB400C7FAA6 /* CalculationData.swift */; };
+		C48644DB2B195ADA00C7FAA6 /* UIWindow+isLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644D82B195ADA00C7FAA6 /* UIWindow+isLandscape.swift */; };
+		C48644DC2B195ADA00C7FAA6 /* Formatter+BinaryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644D92B195ADA00C7FAA6 /* Formatter+BinaryString.swift */; };
+		C48644DD2B195ADA00C7FAA6 /* Formatter+ScientificNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644DA2B195ADA00C7FAA6 /* Formatter+ScientificNotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C48644C02B19599400C7FAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48644C32B19599400C7FAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C48644C52B19599400C7FAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48644CB2B1959D700C7FAA6 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C48644CD2B1959F400C7FAA6 /* DecimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalViewController.swift; sourceTree = "<group>"; };
+		C48644CF2B195A3D00C7FAA6 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		C48644D12B195A6800C7FAA6 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		C48644D32B195A9300C7FAA6 /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		C48644D52B195AB400C7FAA6 /* CalculationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationData.swift; sourceTree = "<group>"; };
+		C48644D82B195ADA00C7FAA6 /* UIWindow+isLandscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+isLandscape.swift"; sourceTree = "<group>"; };
+		C48644D92B195ADA00C7FAA6 /* Formatter+BinaryString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Formatter+BinaryString.swift"; sourceTree = "<group>"; };
+		C48644DA2B195ADA00C7FAA6 /* Formatter+ScientificNotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Formatter+ScientificNotation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +77,29 @@
 				C48644B72B19599200C7FAA6 /* AppDelegate.swift */,
 				C48644B92B19599200C7FAA6 /* SceneDelegate.swift */,
 				C48644BB2B19599200C7FAA6 /* ViewController.swift */,
+				C48644CB2B1959D700C7FAA6 /* RoundButton.swift */,
+				C48644CD2B1959F400C7FAA6 /* DecimalViewController.swift */,
+				C48644D32B195A9300C7FAA6 /* StateController.swift */,
+				C48644D52B195AB400C7FAA6 /* CalculationData.swift */,
+				C48644CF2B195A3D00C7FAA6 /* UIHelper.swift */,
+				C48644D12B195A6800C7FAA6 /* Operation.swift */,
+				C48644D72B195ADA00C7FAA6 /* Extensions */,
 				C48644BD2B19599200C7FAA6 /* Main.storyboard */,
 				C48644C02B19599400C7FAA6 /* Assets.xcassets */,
 				C48644C22B19599400C7FAA6 /* LaunchScreen.storyboard */,
 				C48644C52B19599400C7FAA6 /* Info.plist */,
 			);
 			path = DoubleCalc;
+			sourceTree = "<group>";
+		};
+		C48644D72B195ADA00C7FAA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C48644D82B195ADA00C7FAA6 /* UIWindow+isLandscape.swift */,
+				C48644D92B195ADA00C7FAA6 /* Formatter+BinaryString.swift */,
+				C48644DA2B195ADA00C7FAA6 /* Formatter+ScientificNotation.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48644CC2B1959D700C7FAA6 /* RoundButton.swift in Sources */,
+				C48644D22B195A6800C7FAA6 /* Operation.swift in Sources */,
 				C48644BC2B19599200C7FAA6 /* ViewController.swift in Sources */,
+				C48644DC2B195ADA00C7FAA6 /* Formatter+BinaryString.swift in Sources */,
+				C48644CE2B1959F400C7FAA6 /* DecimalViewController.swift in Sources */,
 				C48644B82B19599200C7FAA6 /* AppDelegate.swift in Sources */,
+				C48644DB2B195ADA00C7FAA6 /* UIWindow+isLandscape.swift in Sources */,
+				C48644D42B195A9300C7FAA6 /* StateController.swift in Sources */,
 				C48644BA2B19599200C7FAA6 /* SceneDelegate.swift in Sources */,
+				C48644DD2B195ADA00C7FAA6 /* Formatter+ScientificNotation.swift in Sources */,
+				C48644D62B195AB500C7FAA6 /* CalculationData.swift in Sources */,
+				C48644D02B195A3D00C7FAA6 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
