@@ -131,7 +131,7 @@ class CalcViewController: UIViewController {
     }
 
     func specialCharacter (char: Character) -> Bool {
-        if char == "*" {
+        if char == "X" {
             return true
         }
         if char == "/" {
@@ -192,7 +192,7 @@ class CalcViewController: UIViewController {
     }
 
     @IBAction func timesTap(_ sender: Any) {
-        addToWorkings(value: "*")
+        addToWorkings(value: "X")
     }
 
     @IBAction func minusTap(_ sender: Any) {
