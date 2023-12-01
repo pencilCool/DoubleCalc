@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct convVals{
+struct ConvVals {
     var decimalVal: String = "0"
     var hexVal: String = "0"
     var binVal: String = "0"
@@ -30,5 +30,5 @@ protocol StateControllerProtocol {
 }
 
 class StateController {
-    var convValues:convVals = convVals()
+    var convValues: ConvVals = ConvVals()
 }

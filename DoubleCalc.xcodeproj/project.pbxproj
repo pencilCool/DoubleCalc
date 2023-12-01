@@ -66,7 +66,6 @@
 				950A5C4C4403D1A1CA847CEB /* Pods-DoubleCalc.debug.xcconfig */,
 				8956177022A2D25AD7B558C0 /* Pods-DoubleCalc.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,6 +134,7 @@
 			buildConfigurationList = C48644C82B19599400C7FAA6 /* Build configuration list for PBXNativeTarget "DoubleCalc" */;
 			buildPhases = (
 				D902FA9BB0CC4C2EFA4704A3 /* [CP] Check Pods Manifest.lock */,
+				C48644DE2B19618A00C7FAA6 /* swiftlint */,
 				C48644B02B19599200C7FAA6 /* Sources */,
 				C48644B12B19599200C7FAA6 /* Frameworks */,
 				C48644B22B19599200C7FAA6 /* Resources */,
@@ -195,6 +195,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C48644DE2B19618A00C7FAA6 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		D902FA9BB0CC4C2EFA4704A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

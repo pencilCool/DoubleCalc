@@ -8,7 +8,7 @@
 
 import Foundation
 
-//Extension for scientific notation conversion within calculator app
+// Extension for scientific notation conversion within calculator app
 extension Formatter {
     static let scientific: NumberFormatter = {
         let formatter = NumberFormatter()

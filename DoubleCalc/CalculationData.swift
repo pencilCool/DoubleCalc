@@ -14,7 +14,7 @@ struct CalculationData {
     let operation: Operation
     let result: String
     let isUnaryOperation: Bool
-    
+
     func generateEquation() -> String {
         // Base case
         if operation == .NULL {

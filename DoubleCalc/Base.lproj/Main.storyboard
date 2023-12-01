@@ -369,16 +369,6 @@
                     <tabBarItem key="tabBarItem" title="Decimal" image="dot.square" catalog="system" id="0Eo-Ds-SKu"/>
                     <connections>
                         <outlet property="ACBtn" destination="VGW-Q3-I16" id="vNP-IE-FcA"/>
-                        <outlet property="Btn0" destination="FSM-pI-rq4" id="Ywp-GT-9jK"/>
-                        <outlet property="Btn1" destination="gMZ-nG-oG5" id="AW7-4A-LJT"/>
-                        <outlet property="Btn2" destination="0tw-dQ-G5x" id="35l-eE-JpZ"/>
-                        <outlet property="Btn3" destination="gfa-hR-kpN" id="kDp-Ss-Fhq"/>
-                        <outlet property="Btn4" destination="DcF-z2-a5X" id="LEu-87-e0n"/>
-                        <outlet property="Btn5" destination="47G-29-MNA" id="ZIF-td-Kt9"/>
-                        <outlet property="Btn6" destination="wCO-F7-kSE" id="8yx-Dm-adc"/>
-                        <outlet property="Btn7" destination="tbr-PJ-LCR" id="hML-5I-aHm"/>
-                        <outlet property="Btn8" destination="oLm-dP-0Tc" id="1d4-89-3RF"/>
-                        <outlet property="Btn9" destination="bdh-TO-TeN" id="1I6-oc-HkT"/>
                         <outlet property="DELBtn" destination="OzV-3g-dqm" id="A9e-2O-AFY"/>
                         <outlet property="DIVBtn" destination="GIg-Ct-1ZP" id="KfQ-uX-9ss"/>
                         <outlet property="DOTBtn" destination="7B4-ia-QSq" id="lBi-FP-NU8"/>
@@ -386,7 +376,16 @@
                         <outlet property="MULTBtn" destination="dfu-On-QET" id="1Oc-gm-mcE"/>
                         <outlet property="PLUSBtn" destination="qr6-rp-9wb" id="LYi-ie-LYb"/>
                         <outlet property="SUBBtn" destination="lpp-R8-ezn" id="pd2-Zy-IzN"/>
-                        <outlet property="SecondFunctionBtn" destination="huR-q8-cRY" id="Cx6-pZ-yDu"/>
+                        <outlet property="btn0" destination="FSM-pI-rq4" id="Ywp-GT-9jK"/>
+                        <outlet property="btn1" destination="gMZ-nG-oG5" id="AW7-4A-LJT"/>
+                        <outlet property="btn2" destination="0tw-dQ-G5x" id="35l-eE-JpZ"/>
+                        <outlet property="btn3" destination="gfa-hR-kpN" id="kDp-Ss-Fhq"/>
+                        <outlet property="btn4" destination="DcF-z2-a5X" id="LEu-87-e0n"/>
+                        <outlet property="btn5" destination="47G-29-MNA" id="ZIF-td-Kt9"/>
+                        <outlet property="btn6" destination="wCO-F7-kSE" id="8yx-Dm-adc"/>
+                        <outlet property="btn7" destination="tbr-PJ-LCR" id="hML-5I-aHm"/>
+                        <outlet property="btn8" destination="oLm-dP-0Tc" id="1d4-89-3RF"/>
+                        <outlet property="btn9" destination="bdh-TO-TeN" id="1I6-oc-HkT"/>
                         <outlet property="decHStack1" destination="gFH-xZ-xuv" id="HDk-f9-gE5"/>
                         <outlet property="decHStack2" destination="teq-ak-8ON" id="T7Q-iF-lMf"/>
                         <outlet property="decHStack3" destination="bTi-pS-LK9" id="KE4-7p-Rre"/>
@@ -395,6 +394,7 @@
                         <outlet property="decVStack" destination="S5B-Zi-s7E" id="paN-tF-yOI"/>
                         <outlet property="historyButton" destination="5Pk-dV-txX" id="t3f-Ha-7sX"/>
                         <outlet property="outputLabel" destination="G1N-Ds-mjH" id="tAe-L4-cxH"/>
+                        <outlet property="secondFunctionBtn" destination="huR-q8-cRY" id="Cx6-pZ-yDu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfA-V7-Bv0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -402,65 +402,6 @@
             <point key="canvasLocation" x="963" y="-46"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="0tw-dQ-G5x">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="47G-29-MNA">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="7B4-ia-QSq">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="DcF-z2-a5X">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="FSM-pI-rq4">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="GIg-Ct-1ZP">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="Nex-yj-ssl">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="OzV-3g-dqm">
-            <size key="intrinsicContentSize" width="57" height="53"/>
-        </designable>
-        <designable name="VGW-Q3-I16">
-            <size key="intrinsicContentSize" width="42" height="53"/>
-        </designable>
-        <designable name="bdh-TO-TeN">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="dfu-On-QET">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="gMZ-nG-oG5">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="gfa-hR-kpN">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="huR-q8-cRY">
-            <size key="intrinsicContentSize" width="55" height="53"/>
-        </designable>
-        <designable name="lpp-R8-ezn">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="oLm-dP-0Tc">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="qr6-rp-9wb">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="tbr-PJ-LCR">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-        <designable name="wCO-F7-kSE">
-            <size key="intrinsicContentSize" width="30" height="53"/>
-        </designable>
-    </designables>
     <resources>
         <image name="dot.square" catalog="system" width="128" height="114"/>
         <systemColor name="labelColor">
