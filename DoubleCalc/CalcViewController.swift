@@ -45,13 +45,13 @@ extension NSExpression {
     }
 }
 
-class ViewController: UIViewController {
+class CalcViewController: UIViewController {
 
     @IBOutlet weak var calculatorWorkings: UILabel!
     @IBOutlet weak var calculatorResults: UILabel!
 
     var workings: String = ""
-    var currentResult:Double = 0.0
+    var currentResult: Double = 0.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     @IBAction func equalsTap(_ sender: Any) {
         self.calculate()
     }
-    
+
     func calculate() {
         if validInput() {
             let checkedWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01")
@@ -153,7 +153,7 @@ class ViewController: UIViewController {
         workings =  formatResult(result: currentResult)
         calculatorWorkings.text = workings
     }
-    
+
     func backTxxx() {
         if !workings.isEmpty {
             workings.removeLast()

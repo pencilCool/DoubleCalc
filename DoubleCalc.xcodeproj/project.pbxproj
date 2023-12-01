@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		C48644B82B19599200C7FAA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644B72B19599200C7FAA6 /* AppDelegate.swift */; };
 		C48644BA2B19599200C7FAA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644B92B19599200C7FAA6 /* SceneDelegate.swift */; };
-		C48644BC2B19599200C7FAA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644BB2B19599200C7FAA6 /* ViewController.swift */; };
+		C48644BC2B19599200C7FAA6 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644BB2B19599200C7FAA6 /* CalcViewController.swift */; };
 		C48644BF2B19599200C7FAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48644BD2B19599200C7FAA6 /* Main.storyboard */; };
 		C48644C12B19599400C7FAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48644C02B19599400C7FAA6 /* Assets.xcassets */; };
 		C48644C42B19599400C7FAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48644C22B19599400C7FAA6 /* LaunchScreen.storyboard */; };
+		C48644E02B19BD2C00C7FAA6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48644DF2B19BD2C00C7FAA6 /* ContainerViewController.swift */; };
 		EBC13D805BECD6077C4C5C18 /* Pods_DoubleCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0FF88F96D0EF996A74CAE5 /* Pods_DoubleCalc.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +24,12 @@
 		C48644B42B19599200C7FAA6 /* DoubleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48644B72B19599200C7FAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48644B92B19599200C7FAA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C48644BB2B19599200C7FAA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C48644BB2B19599200C7FAA6 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		C48644BE2B19599200C7FAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C48644C02B19599400C7FAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48644C32B19599400C7FAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C48644C52B19599400C7FAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48644DF2B19BD2C00C7FAA6 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,8 @@
 			children = (
 				C48644B72B19599200C7FAA6 /* AppDelegate.swift */,
 				C48644B92B19599200C7FAA6 /* SceneDelegate.swift */,
-				C48644BB2B19599200C7FAA6 /* ViewController.swift */,
+				C48644BB2B19599200C7FAA6 /* CalcViewController.swift */,
+				C48644DF2B19BD2C00C7FAA6 /* ContainerViewController.swift */,
 				C48644BD2B19599200C7FAA6 /* Main.storyboard */,
 				C48644C02B19599400C7FAA6 /* Assets.xcassets */,
 				C48644C22B19599400C7FAA6 /* LaunchScreen.storyboard */,
@@ -103,6 +106,7 @@
 				C48644B02B19599200C7FAA6 /* Sources */,
 				C48644B12B19599200C7FAA6 /* Frameworks */,
 				C48644B22B19599200C7FAA6 /* Resources */,
+				0FB798C606F142D50FC4C8CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +164,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0FB798C606F142D50FC4C8CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoubleCalc/Pods-DoubleCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoubleCalc/Pods-DoubleCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoubleCalc/Pods-DoubleCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C48644DE2B19618A00C7FAA6 /* swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,7 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --fix \n";
 		};
 		D902FA9BB0CC4C2EFA4704A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -207,8 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48644BC2B19599200C7FAA6 /* ViewController.swift in Sources */,
+				C48644BC2B19599200C7FAA6 /* CalcViewController.swift in Sources */,
 				C48644B82B19599200C7FAA6 /* AppDelegate.swift in Sources */,
+				C48644E02B19BD2C00C7FAA6 /* ContainerViewController.swift in Sources */,
 				C48644BA2B19599200C7FAA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
