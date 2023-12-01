@@ -88,7 +88,7 @@ class CalcViewController: UIViewController {
             return
         }
         if validInput() {
-            let checkedWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01")
+            let checkedWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01").replacingOccurrences(of: "X", with: "*")
             let expression = NSExpression(format: checkedWorkingsForPercent)
             if let result = expression.toFloatingPoint().expressionValue(with: nil, context: nil) as? Double {
                 let resultString = formatResult(result: result)
