@@ -45,6 +45,15 @@ extension NSExpression {
     }
 }
 
+class CornerRadiusButton: UIButton {
+
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        layer.cornerRadius = 10
+        self.clipsToBounds = true
+    }
+}
+
 protocol CalcViewControllerDelegate: AnyObject {
     func currentActive(_ vc: CalcViewController)
 }

@@ -43,7 +43,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yiU-Ec-2Dw">
                                         <rect key="frame" x="0.0" y="0.0" width="736" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-uQ-if5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-uQ-if5" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="180.33333333333334" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -54,7 +54,7 @@
                                                     <action selector="allClearTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="95R-4U-t5m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvc-3f-4Lu">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvc-3f-4Lu" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="185.33333333333331" y="0.0" width="180.33333333333331" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -65,7 +65,7 @@
                                                     <action selector="changeSign:" destination="fNI-DB-LHL" eventType="touchUpInside" id="uLR-y1-vuN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOE-Id-GXq">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOE-Id-GXq" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="370.66666666666669" y="0.0" width="180.00000000000006" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -76,7 +76,7 @@
                                                     <action selector="percentTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="9QM-OG-g7g"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYv-45-hRw">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYv-45-hRw" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="555.66666666666663" y="0.0" width="180.33333333333337" height="56"/>
                                                 <color key="backgroundColor" red="0.92941176469999998" green="0.41568627450000001" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -93,7 +93,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EbR-7f-CXY">
                                         <rect key="frame" x="0.0" y="61" width="736" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKb-gM-MEy">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKb-gM-MEy" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="180.33333333333334" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -104,7 +104,7 @@
                                                     <action selector="sevenTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="wLj-Ae-hWM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-nA-RR1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-nA-RR1" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="185.33333333333331" y="0.0" width="180.33333333333331" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -115,7 +115,7 @@
                                                     <action selector="eightTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="anV-uy-gIP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1U-LI-Doz">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1U-LI-Doz" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="370.66666666666669" y="0.0" width="180.00000000000006" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -126,7 +126,7 @@
                                                     <action selector="nineTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="6dv-dX-uyw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-Pn-SMw">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-Pn-SMw" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="555.66666666666663" y="0.0" width="180.33333333333337" height="56"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -143,7 +143,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TfS-ik-AOT">
                                         <rect key="frame" x="0.0" y="122" width="736" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sel-oK-K5M">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sel-oK-K5M" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="180.33333333333334" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -154,7 +154,7 @@
                                                     <action selector="fourTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="MFI-xf-wwQ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNk-Io-iJF">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNk-Io-iJF" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="185.33333333333331" y="0.0" width="180.33333333333331" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -165,7 +165,7 @@
                                                     <action selector="fiveTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="jOX-Mf-FpM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZD-ga-f7F">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZD-ga-f7F" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="370.66666666666669" y="0.0" width="180.00000000000006" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -176,7 +176,7 @@
                                                     <action selector="sixTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="tJK-PF-OPI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paE-OV-1ya">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paE-OV-1ya" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="555.66666666666663" y="0.0" width="180.33333333333337" height="56"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -193,7 +193,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bbn-UI-FlP">
                                         <rect key="frame" x="0.0" y="183" width="736" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3H-KA-6r4">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3H-KA-6r4" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="180.33333333333334" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -204,7 +204,7 @@
                                                     <action selector="oneTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="jUo-Z4-QhA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwn-DE-gEj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwn-DE-gEj" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="185.33333333333331" y="0.0" width="180.33333333333331" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -215,7 +215,7 @@
                                                     <action selector="twoTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="ke7-Nb-Bjk"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yo-nP-aho">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yo-nP-aho" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="370.66666666666669" y="0.0" width="180.00000000000006" height="56"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -226,7 +226,7 @@
                                                     <action selector="threeTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="YTe-MS-Vqg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kck-Kh-d3T">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kck-Kh-d3T" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="555.66666666666663" y="0.0" width="180.33333333333337" height="56"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -246,7 +246,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8ch-yL-7pY">
                                                 <rect key="frame" x="0.0" y="0.0" width="365.66666666666669" height="56"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyE-Rl-NRH">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyE-Rl-NRH" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="365.66666666666669" height="56"/>
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -262,7 +262,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wD0-mj-b1L">
                                                 <rect key="frame" x="370.66666666666674" y="0.0" width="365.33333333333326" height="56"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNK-vg-xa3">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNK-vg-xa3" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="180" height="56"/>
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -273,7 +273,7 @@
                                                             <action selector="decimalTap:" destination="fNI-DB-LHL" eventType="touchUpInside" id="L5M-Fw-2PX"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp6-Uu-3w3">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp6-Uu-3w3" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                         <rect key="frame" x="184.99999999999994" y="0.0" width="180.33333333333331" height="56"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -336,7 +336,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="174"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMN-wt-3Ue">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMN-wt-3Ue" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="194" width="80" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
@@ -351,7 +351,7 @@
                                                     <action selector="setResultToLeft:" destination="GeG-Mm-J25" eventType="touchUpInside" id="FWh-Eh-9ox"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWh-JG-fjm">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWh-JG-fjm" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="274" width="80" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
@@ -366,7 +366,7 @@
                                                     <action selector="setResultToRight:" destination="GeG-Mm-J25" eventType="touchUpInside" id="Diy-6E-wPi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7T-HG-mUw">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7T-HG-mUw" customClass="CornerRadiusButton" customModule="DoubleCalc" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="354" width="80" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
