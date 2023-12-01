@@ -45,6 +45,10 @@ extension NSExpression {
     }
 }
 
+protocol CalcViewControllerDelegate: AnyObject {
+    func currentActive(_ vc: CalcViewController)
+}
+
 class CalcViewController: UIViewController {
 
     @IBOutlet weak var calculatorWorkings: UILabel!
@@ -52,6 +56,8 @@ class CalcViewController: UIViewController {
 
     var workings: String = ""
     var currentResult: Double = 0.0
+    var isActive: Bool = false
+    weak var delegate: CalcViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +75,9 @@ class CalcViewController: UIViewController {
     }
 
     func calculate() {
+        if workings.isEmpty {
+            return
+        }
         if validInput() {
             let checkedWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01")
             let expression = NSExpression(format: checkedWorkingsForPercent)
@@ -154,7 +163,7 @@ class CalcViewController: UIViewController {
         calculatorWorkings.text = workings
     }
 
-    func backTxxx() {
+    func delete() {
         if !workings.isEmpty {
             workings.removeLast()
             calculatorWorkings.text = workings
@@ -162,7 +171,15 @@ class CalcViewController: UIViewController {
     }
 
     func addToWorkings(value: String) {
+        self.delegate?.currentActive(self)
         workings += value
+        calculatorWorkings.text = workings
+    }
+
+    func inputResult(_ result: Double) {
+        self.currentResult = result
+        calculatorResults.text =  formatResult(result: result)
+        workings =  formatResult(result: currentResult)
         calculatorWorkings.text = workings
     }
 
